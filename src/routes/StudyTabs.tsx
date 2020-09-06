@@ -11,7 +11,7 @@ import Favorites from '../pages/Favorites';
 // Aula4 - 1:25:40 - Alteracao no StudyTabs.tsx :  importacao de ícones
 import { Ionicons } from '@expo/vector-icons'; 
 
-
+// Aula4 - 1:17:50
 const { Navigator, Screen } = createBottomTabNavigator();
 
 function StudyTabs() {
@@ -50,17 +50,17 @@ function StudyTabs() {
                 , activeBackgroundColor: '#ebedf5'
                 , inactiveTintColor: '#c1bccc'
                 // Aula4 - 1:25:03
-                // , activeTintColor: '#32264d'
-                , activeTintColor: '#04d361'
-
+                , activeTintColor: '#32264d'
+                // , activeTintColor: '#04d361'
+                ,
             }}
         >
-{/* 
+            {/* 
             Aula4 - 1:25:40 - Alteracao no StudyTabs.tsx :  importacao de ícones
             Adicionando ícones
             <Screen name="TeacherList" component={TeacherList}/>
             <Screen name="Favorites" component={Favorites}/>
- */}
+            */}
             <Screen 
                 name="TeacherList" 
                 component={TeacherList}
@@ -75,12 +75,12 @@ function StudyTabs() {
                     }
                 }}
             />
-
+            {/* Aula4 - 1:18:55 */}
             <Screen 
                 name="Favorites" 
                 component={Favorites}
                 options={{
-                    tabBarLabel: 'Favoritos.'
+                    tabBarLabel: 'Favoritos'
                     , tabBarIcon: ({color, size, focused }) => {
                         return(
                             <Ionicons name="ios-heart" size={size} color={focused ? '#8257e5' : color} />

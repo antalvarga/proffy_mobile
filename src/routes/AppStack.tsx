@@ -30,7 +30,7 @@ function AppStack() {
                 {/* Aula4 - 1:01:01 */}
                 <Screen name="GiveClasses" component={GiveClasses}/>
 
-                {/* Aula4 - 1:19:14 - Alteracao na AppStack para incluir StudyTabs */}
+                {/* Aula4 - 1:19:06 - Alteracao na AppStack para incluir StudyTabs */}
                 <Screen name="Study" component={StudyTabs} />
             </Navigator>
         </NavigationContainer>

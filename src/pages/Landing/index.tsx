@@ -39,7 +39,7 @@ function Landing () {
         navigate('GiveClasses');
     }
 
-    // Aula4 - 1:19:26 - Alteracao na LandingPage para Criar function handleNavigateToStudyPage
+    // Aula4 - 1:19:24 - Alteracao na LandingPage para Criar function handleNavigateToStudyPage
     function handleNavigateToStudyPage() {
         navigate('Study')
     }
