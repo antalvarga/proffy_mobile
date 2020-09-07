@@ -1,9 +1,8 @@
 // Aula5 - 4:26
 import { StyleSheet } from "react-native";
 
-
-
 const styles = StyleSheet.create({
+    // Aula5 - 7:07
     container: {
         backgroundColor: '#fff'
         , borderWidth: 1
@@ -13,6 +12,7 @@ const styles = StyleSheet.create({
         , overflow: 'hidden'
         , 
     }
+    // Aula5 - 8:06
     , profile: {
         flexDirection: 'row'
         , alignItems: 'center'
@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
         , marginTop: 4
         , 
     }
+    // Aula5 - 10:44
     , bio: {
         // margin: 24
         marginHorizontal: 24
@@ -55,7 +56,7 @@ const styles = StyleSheet.create({
         , textAlign: 'justify'
     }
     // Aula5 - 15:03
-    // Aula5 - 18:08 - marginTop
+    // Aula5 - 18:07 - marginTop
     , footer: {
         backgroundColor: '#fafafc'
         , padding: 24
@@ -63,7 +64,7 @@ const styles = StyleSheet.create({
         , marginTop: 24
         ,
     }
-    // Aula5 - 15:26
+    // Aula5 - 15:24
     , price: {
         fontFamily: 'Poppins_400Regular'
         , color: '#6a6180'
@@ -83,7 +84,7 @@ const styles = StyleSheet.create({
         , marginTop: 16
         , 
     }
-    // Aula5 - 16:26
+    // Aula5 - 16:24
     , favoriteButton: {
         backgroundColor: '#8257e5'
         , width: 56

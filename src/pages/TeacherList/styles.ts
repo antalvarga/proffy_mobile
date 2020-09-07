@@ -7,12 +7,14 @@ const styles = StyleSheet.create({
         flex: 1
         , backgroundColor: '#f0f0f7'
     }
-    // Aula5 - 18:55
+    // Aula5 - 19:04
     , teacherList: {
         marginTop: -40
         // Aula5 - 20:00 - alterado TeacherList contentContainerStyle
-        // , padding: 16
-        , backgroundColor: '#d4c2ff'
+        // Para evitar erros de padding
+        //, padding: 16
+        // , backgroundColor: '#d4c2ff'
+        ,
     } 
     // Aula5 - 28:00
     , searchForm: {
@@ -64,6 +66,10 @@ const styles = StyleSheet.create({
         , fontSize: 16
         ,         
     }
+    
+
+
+
 });
 
 export default styles;
