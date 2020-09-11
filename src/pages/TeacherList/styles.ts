@@ -56,7 +56,8 @@ const styles = StyleSheet.create({
         , flexDirection: 'row'
         , justifyContent: 'center'
         , alignItems: 'center'
-        , 
+        , marginTop: 10
+        ,
     }
     // Aula5 - 41:39
     , submitButtonText:{

@@ -35,7 +35,8 @@ const styles = StyleSheet.create({
         fontFamily: 'Archivo_700Bold'
         , color: '#32264d'
         , fontSize: 20
-        , 
+        , maxWidth: 255
+        ,
     }
     // Aula5 - 09:28
     , subject: {
